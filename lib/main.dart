@@ -20,8 +20,11 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(),
-        initialRoute: 'status',
-        routes: {'home': (_) => HomePage(), 'status': (_) => StatusPage()},
+        initialRoute: 'home',
+        routes: {
+          'home': (_) => HomePage(),
+          'status': (_) => StatusPage()
+        },
       ),
     );
   }
